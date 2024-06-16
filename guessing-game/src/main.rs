@@ -16,7 +16,7 @@ fn main() {
     let guess: u32 = match guess.trim().parse() {
       Ok(num) => num,
       Err(_) => {
-        println!("{}", "Please enter a string!".yellow());
+        println!("{}", "Please enter a number!".yellow());
         continue;
       }
     };
