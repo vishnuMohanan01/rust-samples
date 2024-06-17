@@ -31,7 +31,4 @@ pub fn main() {
   }
 
   println!("{:?}", word_count);
-
-  let value = word_count.entry("hello".to_string());
-  *value = 7;
 }
