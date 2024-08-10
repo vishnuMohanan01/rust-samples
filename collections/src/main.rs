@@ -4,6 +4,6 @@ mod hashmaps;
 
 fn main() {
     // vectors::main();
-    // strings::main();
-    hashmaps::main();
+    strings::main();
+    // hashmaps::main();
 }

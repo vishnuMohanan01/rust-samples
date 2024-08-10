@@ -5,7 +5,7 @@ use colored::Colorize;
 
 fn main() {
   println!("\n\n=================== Welcome to guessing game !================\n\n");
-  
+
   let secret_number = rand::thread_rng().gen_range(0..101);
   println!("Secret number is {}:", secret_number.to_string().cyan());
   
@@ -20,9 +20,9 @@ fn main() {
         continue;
       }
     };
-    
+
     println!("You guessed: {}", guess);
-    
+
     match guess.cmp(&secret_number) {
       Ordering::Less => {
         println!("{}", "Too small!".red());

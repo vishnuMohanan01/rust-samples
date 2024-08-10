@@ -32,10 +32,6 @@ pub fn main () {
     println!("{}", s);
   }
 
-  for s in s13.chars() {
-    println!("{}", s);
-  }
-
   for g in s13.graphemes(true) {
     println!("{}", g);
   }
